@@ -1,0 +1,214 @@
+// app global css in SCSS form
+@font-face {
+  font-family: "Futura Medium";
+  src: url("~assets/fonts/futuram.ttf");
+}
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("~assets/fonts/FUTUR_0.ttf");
+}
+@font-face {
+  font-family: "Futura Lt BT Light";
+  src: url("~assets/fonts/tt0138m.ttf");
+}
+
+@font-face {
+  font-family: "Swis721 Lt BT Light";
+  src: url("~assets/fonts/tt0001m_.ttf");
+}
+body {
+  font-family: "Swis721 Lt BT Light";
+}
+.footer-head {
+  font-size: 16px;
+}
+.mh-red-border {
+  border: 1px solid red;
+}
+.mh-align-right {
+  text-align: right;
+}
+.my-card {
+  width: 100%;
+  max-width: 250px;
+}
+.hospital-list-card-1 {
+  width: 100%;
+  max-width: 800px;
+}
+.mh-page-heading {
+  min-height: 100px;
+  padding-top: 30px;
+  font-family: "Futura Medium";
+}
+.mh_main_img {
+  max-width: 100%;
+  height: 400px;
+}
+.login-form {
+  padding-top: 66px;
+  height: 330px;
+  border: 1px solid primary;
+}
+.customer_signup-form {
+  padding-top: 45px;
+  height: 480px;
+  border: 1px solid primary;
+}
+.mh-p {
+  font-size: 14px;
+}
+.mh-home-page-top-image-right {
+  background-image: linear-gradient(to right, #b8ad9b, #d2c9c2);
+  /* background-color: #b8ad9b ;*/
+  height: 400px !important;
+}
+.mh-home-page-top-image {
+  background-image: url("~assets/web_site/Home care visual_correction.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-home-page-top-image3 {
+  background-image: url("~assets/web_site/Hotel 482526895 zoom.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-home-page-top-image2 {
+  background-image: url("~assets/web_site/Airport final file zoom.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-home-page-top-image {
+  background-image: url("~assets/web_site/main page_1.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-home-page-top-image2 {
+  background-image: url("~assets/web_site/main page_2.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-home-page-top-image3 {
+  background-image: url("~assets/web_site/main page_4.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+
+.mh-rooms-page-top-image {
+  background-image: url("~assets/web_site/rooms_01-12-21.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-rooms-page-top-image {
+  background-image: url("~assets/web_site/Rooms_M_Dot.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-food-page-top-image {
+  background-image: url("~assets/web_site/food_main.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-food-page-top-image {
+  background-image: url("~assets/web_site/Food_M_Dot.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-travel-page-top-image {
+  background-image: url("~assets/web_site/Travel_M_Dot.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-travel-page-top-image {
+  background-image: url("~assets/web_site/travel_01-12-21.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-me-page-top-image {
+  background-image: url("~assets/web_site/medicalEquipment_main.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-me-page-top-image {
+  background-image: url("~assets/web_site/MEDICAL_EQUIPMENT_M_Dot.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-cp-page-top-image {
+  background-image: url("~assets/web_site/corona_protocol.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-cp-page-top-image {
+  background-image: url("~assets/web_site/PROTECTION_M_Dot.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-partner-page-top-image {
+  background-image: url("~assets/web_site/partner_main.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-mobile-partner-page-top-image {
+  background-image: url("~assets/web_site/PATNER_M_Dot.jpg");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-background_cart_image {
+  background-image: url("~assets/web_site/background_cart_image.png");
+  background-size: 100% 100%;
+  height: 100% !important;
+  width: 100% !important;
+}
+.my-menu-link {
+  color: white;
+  background: #00953f;
+}
+.my-futur_o {
+  font-family: "FUTUR_0";
+}
+.my-tt0138m {
+  font-family: "tt0138m";
+}
+.mh-near-hospital-icon {
+  background-image: url("~assets/icon/Asset 12@2x.png");
+  background-size: cover;
+  color: white !important;
+}
+.mh-patient-bed-icon {
+  background-image: url("~assets/icon/Asset 13@2x.png");
+  background-size: cover;
+}
+.mh-attendent-icon {
+  background-image: url("~assets/icon/Asset 14@2x.png");
+  background-size: cover;
+}
+.mh-food-icon {
+  background-image: url("~assets/icon/Asset 8@4x.png");
+  background-size: cover;
+}
+.mh-cost-icon {
+  background-image: url("~assets/icon/Asset 18@2x.png");
+  background-size: cover;
+}
+.mh-wheelchair-icon {
+  background-image: url("~assets/icon/Asset 17@2x.png");
+  background-size: cover;
+}
+.mh-24-7-icon {
+  background-image: url("~assets/icon/Asset 16@2x.png");
+  background-size: cover;
+}
+.mh-heartrate-icon {
+  background-image: url("~assets/icon/Asset 15@2x.png");
+  background-size: cover;
+}
+.mh-short-icon {
+  background-image: url("~assets/logos/MHmini_logo_128x128.png");
+  background-size: cover;
+}
+.uncropped-image {
+  background-size: contain; /* don't crop the image  */
+  background-repeat: no-repeat; /* only show the image one time  */
+  background-color: rgb(255, 255, 255); /* color to fill empty space with  */
+}

@@ -1,0 +1,340 @@
+// app global css in SCSS form
+@font-face {
+  font-family: "Futura Medium";
+  src: url("~assets/fonts/futuram.ttf");
+}
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("~assets/fonts/FUTUR_0.ttf");
+}
+@font-face {
+  font-family: "Futura Lt BT Light";
+  src: url("~assets/fonts/tt0138m.ttf");
+}
+
+@font-face {
+  font-family: "Swis721 Lt BT Light";
+  src: url("~assets/fonts/tt0001m_.ttf");
+}
+body {
+  font-family: "Swis721 Lt BT Light";
+}
+.footer-head {
+  font-size: 16px;
+}
+.mh-red-border {
+  border: 1px solid red;
+}
+.mh-align-right {
+  text-align: right;
+}
+.my-card {
+  width: 100%;
+  max-width: 250px;
+}
+.hospital-list-card-1 {
+  width: 100%;
+  max-width: 800px;
+}
+.hotel-details-card-1 {
+  width: 100%;
+  max-width: 1000px;
+}
+.mh-page-heading {
+  min-height: 100px;
+  padding-top: 30px;
+  letter-spacing: -1.75px;
+  font-family: "Futura Medium";
+}
+.mh-page-mostrecentsearch {
+  min-height: 50px;
+  padding-top: 10px;
+  letter-spacing: -1.75px;
+  font-family: "Futura Medium";
+}
+.mh_main_img {
+  max-width: 100%;
+  height: 400px;
+}
+.login-form {
+  padding-top: 66px;
+  height: 330px;
+  border: 1px solid primary;
+}
+.customer_signup-form {
+  padding-top: 45px;
+  height: 480px;
+  border: 1px solid primary;
+}
+.mh-p {
+  font-size: 16px;
+  line-height: 2;
+}
+.mh-home-page-top-image-right {
+  background-image: linear-gradient(to right, #b8ad9b, #d2c9c2);
+  /* background-color: #b8ad9b ;*/
+  height: 400px !important;
+}
+.mh-home-page-top-image {
+  background-image: url("~assets/Web Carousel 1.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-home-page-top-image2 {
+  background-image: url("~assets/Web Carousel 2.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+.mh-home-page-top-image3 {
+  background-image: url("~assets/Web Carousel 3.webp");
+  background-size: cover;
+  height: 400px !important;
+}
+// .mh-home-page-top-image2 {
+//   background-image: url("~assets/web_site/c2.webp");
+//   background-size: cover;
+//   height: 400px !important;
+// }
+
+// .mh-home-lowerband-image1 {
+//   background-image: url("~assets/logos/Lower Band 2.png");
+//   background-size: cover;
+//   height: 400px !important;
+// }
+
+// .mh-home-lowerband-image2 {
+//   background-image: url("~assets/logos/Lower Band.jpg");
+//   background-size: cover;
+//   height: 400px !important;
+// }
+// .mh-home-lowerband-mobile-image1 {
+//   background-image: url("~assets/logos/Aston 2.png");
+//   background-size: 100% 100%;
+//   height: 30% !important;
+// }
+.mh-home-redcliffe-mobile-image2 {
+  background-image: url("https://iframeprod.redcliffelabs.com/?partner_id=Mangohomz");
+  background-size: 100% 100%;
+  height: 30% !important;
+}
+.mh-mobile-home-page-top-image {
+  background-image: url("~assets/Mobile Carousel 1.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-home-page-top-image2 {
+  background-image: url("~assets/Mobile Carousel 2.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-home-page-top-image3 {
+  background-image: url("~assets/web_site/Airport_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-home-page-top-image4 {
+  background-image: url("~assets/web_site/c4 (1).webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+
+.mh-rooms-page-top-image {
+  background-image: url("~assets/web_site/Rooms.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-rooms-page-top-image {
+  background-image: url("~assets/web_site/ROOMS_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-food-page-top-image {
+  background-image: url("~assets/web_site/Food.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-food-page-top-image {
+  background-image: url("~assets/web_site/FOOD_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+  width: 100% !important;
+}
+.mh-background_cart_image {
+  background-image: url("~assets/web_site/background_cart_image.png");
+  background-size: 100% 100%;
+  height: 400px !important;
+  width: 100% !important;
+}
+.mh-mobile-travel-page-top-image {
+  background-image: url("~assets/web_site/TRAVEL_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-travel-page-top-image {
+  background-image: url("~assets/web_site/Travel.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-me-page-top-image {
+  background-image: url("~assets/web_site/medicalEquipment_main.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-me-page-top-image {
+  background-image: url("~assets/web_site/MEDICAL_EQUIPMENT_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-cp-page-top-image {
+  background-image: url("~assets/web_site/corona_protocol.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-cp-page-top-image {
+  background-image: url("~assets/web_site/PROTECTION_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-partner-page-top-image {
+  background-image: url("~assets/web_site/partner_main.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.mh-mobile-partner-page-top-image {
+  background-image: url("~assets/web_site/PATNER_M_Dot.webp");
+  background-size: 100% 100%;
+  height: 400px !important;
+}
+.my-menu-link {
+  color: white;
+  background: #00953f;
+}
+.my-futur_o {
+  font-family: "FUTUR_0";
+}
+.my-tt0138m {
+  font-family: "tt0138m";
+}
+.mh-near-hospital-icon {
+  background-image: url("~assets/icon/Asset 12@2x.png");
+  background-size: cover;
+  color: white !important;
+}
+.mh-patient-bed-icon {
+  background-image: url("~assets/icon/Asset 13@2x.png");
+  background-size: cover;
+}
+.mh-attendent-icon {
+  background-image: url("~assets/icon/Asset 14@2x.png");
+  background-size: cover;
+}
+.mh-food-icon {
+  background-image: url("~assets/icon/mh_food_icon.png");
+  background-size: cover;
+}
+.mh-cost-icon {
+  background-image: url("~assets/icon/Asset 18@2x.png");
+  background-size: cover;
+}
+.mh-wheelchair-icon {
+  background-image: url("~assets/icon/Asset 17@2x.png");
+  background-size: cover;
+}
+.mh-24-7-icon {
+  background-image: url("~assets/icon/Asset 16@2x.png");
+  background-size: cover;
+}
+.mh-heartrate-icon {
+  background-image: url("~assets/icon/Asset 15@2x.png");
+  background-size: cover;
+}
+.mh-short-btn {
+  background-image: url("~assets/logos/Partner.webp");
+  background-size: cover;
+  width: 30px;
+   height: 30px;
+    max-width: 30px
+}
+
+.uncropped-image {
+  background-size: 100% 100%; /* don't crop the image  */
+  background-repeat: no-repeat; /* only show the image one time  */
+  background-color: rgb(255, 255, 255); /* color to fill empty space with  */
+}
+.cut-hs-extra-space {
+  letter-spacing: -2px;
+}
+.mh-food-green-icon {
+  background-image: url("~assets/icon/mh_food_green_icon.png");
+  background-size: cover;
+  width: 26px !important;
+  height: 20px !important;
+}
+.mh-car-green-icon {
+  background: url("~assets/icon/mh_car_green_icon.png");
+  background-size: cover;
+  width: 26px !important;
+  height: 20px !important;
+}
+.mh-wheelchair-green-icon {
+  background-image: url("~assets/icon/mh_wheelchair_green_icon.png");
+  background-size: cover;
+  width: 26px !important;
+  height: 28px !important;
+}
+// @media only screen and (max-width: 1366px) {
+//   div.bookingform {
+//     margin-top: -29.25%;
+//   }
+// }
+// @media only screen and (min-width: 1367px) {
+//   div.bookingform {
+//     margin-top: -26.25%;
+//   }
+// }
+@font-face {
+  font-family: 'MHBookingFormFont'; /* Choose a name for your custom font */
+  src: url('..//assets/fonts/MhBookingFormFont.woff2') format('woff2'), /* Font file path and format */
+       url('..//assets/fonts/MhBookingFormFont.woff') format('woff');
+  /* Add additional src lines for other font formats if needed */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+.contactUsPopUp {
+  background-color: white;
+  padding:0px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid black;
+}
+.contactUsPopUp p {
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 12px;
+}
+.textphNo {
+  text-align:center;
+  font-size:16px;
+  font-weight: 600;
+}
+.phoneNumber {
+
+  font-weight: bold !important;
+  font-size: 22px;
+  color: #3a3e70;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+.textphNomobile {
+
+  font-weight: bold !important;
+  font-size: 14px;
+  color:black;
+
+
+
+}
+.phoneNumber a {
+  color: #3a3e70;
+  margin-left: -18px;
+}
